@@ -319,7 +319,7 @@ body::before{
 
 <script>
 // ── Inject your GAS deployment URL here ──
-var GAS_URL = 'YOUR_GAS_DEPLOYMENT_URL_HERE';
+var GAS_URL = 'https://script.google.com/macros/s/AKfycbzmM-HPa_Pv2kd2OITSja_Ux3EHyZn3GVyZzK2PENk5FNOenJ8EGgZcmoom_K05uBD1/exec';
 
 document.getElementById('openApp').href = GAS_URL;
 
