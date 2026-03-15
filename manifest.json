@@ -2,7 +2,7 @@
   "name": "Rapaport Price List",
   "short_name": "RAP",
   "description": "Live Rapaport diamond price list for merchants",
-  "start_url": "/",
+  "start_url": "/RapPrice/",
   "display": "standalone",
   "background_color": "#080809",
   "theme_color": "#080809",
