@@ -94,15 +94,23 @@ flowchart TD
 
 ## 5. Outstanding items
 
-Tracked as GitHub Issues on this repo from here on, instead of duplicated
-in this file — see [Issues](https://github.com/shreyjari/shreyjari.github.io/issues)
-for current status.
+Tracked as GitHub Issues + a dedicated GitHub Project board from here on,
+instead of duplicated in this file:
+
+- **Issues:** https://github.com/shreyjari/shreyjari.github.io/issues
+- **Project board:** https://github.com/users/shreyjari/projects/2 ("Portfolio Site" — separate from the pre-existing "Project Tracker" board, which tracks unrelated work)
 
 | Item | Issue |
 |---|---|
 | Wire up real Formspree ID for contact form | [#1](https://github.com/shreyjari/shreyjari.github.io/issues/1) |
 | Delete or repurpose the stray `shreyjari/portfolio` repo | [#2](https://github.com/shreyjari/shreyjari.github.io/issues/2) |
 | Add personal photo / avatar | [#3](https://github.com/shreyjari/shreyjari.github.io/issues/3) |
+
+**Update cadence — deliberately not real-time:** the project board and
+issue statuses are updated only at natural checkpoints — when a change is
+verified complete and the user has confirmed it's working — not on every
+intermediate edit during a work session. This keeps the board reflecting
+"what's actually true" rather than churning with in-progress noise.
 
 Already-resolved items (site deploy pipeline, scroll-lock bug) are
 documented in the issue log above (Section 3) rather than as GitHub
