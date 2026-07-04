@@ -4,6 +4,7 @@ export default function ProjectModal({ project, onClose }) {
   const [showNerdy, setShowNerdy] = useState(false);
 
   useEffect(() => {
+    if (!project) return;
     setShowNerdy(false);
     const onKey = (e) => e.key === "Escape" && onClose();
     document.addEventListener("keydown", onKey);
