@@ -4,7 +4,7 @@ const groups = [
     items: ["NetSuite · SuiteScript", "SuiteTalk", "Suitelets", "UKG Ready", "Power BI", "Azure DevOps", "SharePoint", "Microsoft Entra ID"],
   },
   {
-    title: "Building things nobody assigned",
+    title: "Building things nobody asked for",
     items: ["Google Apps Script", "JavaScript", "Node.js", "Power Query M"],
   },
   {
