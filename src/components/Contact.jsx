@@ -1,4 +1,6 @@
 import { useState } from "react";
+import ContactCardQR from "./ContactCardQR";
+import { LINKEDIN_URL } from "../lib/vcard";
 
 // Sign up at https://formspree.io (free), create a form, and drop its ID in here.
 const FORMSPREE_ID = "YOUR_FORM_ID";
@@ -43,7 +45,7 @@ export default function Contact() {
 
         <div className="mt-8 flex justify-center">
           <a
-            href="https://www.linkedin.com/in/shrey-jariwala-pmp%C2%AE-98b236206"
+            href={LINKEDIN_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-ink text-paper px-5 py-3 rounded-full font-medium hover:bg-rust-dark transition-colors"
@@ -51,6 +53,8 @@ export default function Contact() {
             Connect on LinkedIn ↗
           </a>
         </div>
+
+        <ContactCardQR />
 
         <div className="mt-12 text-left bg-white border border-line rounded-2xl p-6 sm:p-8">
           <p className="text-sm text-ink-soft mb-6">
