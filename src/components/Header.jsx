@@ -2,6 +2,7 @@ const links = [
   { href: "#work", label: "Work" },
   { href: "#toolbelt", label: "Toolbelt" },
   { href: "#curious", label: "Curious" },
+  { href: "/resume/", label: "Resume" },
 ];
 
 export default function Header() {
